@@ -8,6 +8,19 @@
     <title>Calculator</title>
 </head>
 <body>
+    <div class="darkLightmode">
+        <button class="buttonDark" onclick="darkMode()">🌙</button>
+        <button class="buttonLight" onclick="lightMode()">☀️</button>
+    </div>
+    <style>
+        .darkmode {
+            background: rgb(37, 37, 37);
+        }
+        .lightmode{
+            background: rgb(218, 221, 240);
+            color: rgb(0, 0, 0);
+        }
+    </style>
     <form class="calculator" name="calc">
         <input type="text" class="value" name="txt" readonly="">
         <span class="num clear" onclick="document.calc.txt.value = ''">C</span>
