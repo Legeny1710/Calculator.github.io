@@ -14,6 +14,47 @@ body {
     font-weight: bold;
 }
 
+
+
+.buttonDark{
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-style: none;
+    outline-style: none;
+    border-radius: 20px;
+}
+
+.buttonDark:hover{
+    cursor: pointer;
+    color: white;
+    background: rgb(37, 37, 37);
+}
+
+.buttonLight {
+    position: absolute;
+    top: 10%;
+    right: 51%;
+    margin-left: 0.5rem;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    border-style: none;
+    outline-style: none;
+    border-radius: 20px;
+    background-color: rgb(196, 213, 228);
+}
+
+.buttonLight:hover{
+    cursor: pointer;
+    background: rgb(218, 221, 240);
+}
+
 .calculator {
     position: relative;
     display: grid;
